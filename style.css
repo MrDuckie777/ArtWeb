@@ -1,0 +1,48 @@
+html {
+  background-color: #f4f1de; 
+  scroll-behavior: smooth;   
+  height: 100%;             
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Trebuchet MS';
+  justify-content: center;
+  font-size: 100px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+h2{
+  display: flex;
+  justify-content: center;
+}
+.title:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: translateY(-20px);
+}
+.yapping {
+	font-size: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%p;
+	text-align: center;
+}
+.piece1:hover {
+	transition: transform 0.2s ease-in-out;
+  transform: translateY(-20px);
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;       
+  padding: 20px;
+}
+.logo {
+	display: block;
+	margin: 0 auto;
+	width: 300px;
+}
